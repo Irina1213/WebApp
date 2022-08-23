@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>FoodItem</title>
+</head>
+<style>
+    .flex {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 2;
+}
+</style>
+
+<body>
+  <div class="container-fluid border m-1 p-2 ">
+    <h1 class="center">Food Item</h1>
+    <hr>
+<h4>Name:</h4>
+<h3><%= data.Name%></h3>
+<hr>
+<h4>Category:</h4>
+<h3><%= data.Category.Name%></h3>
+<hr>
+<h4>Expiry Date:</h4>
+<h3><%= data.ExpiryDate%></h3>
+<hr>
+<h4>Notify Date:</h4>
+<h3><%= data.NotifyDate%></h3>
+
+  </div>
+</body>
+</html>

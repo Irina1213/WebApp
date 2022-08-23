@@ -1,0 +1,22 @@
+Category:
+    CategoryID (INT)
+    Name (VARCHAR)
+    IsActive (BOOLEAN)
+
+foodItem:
+    FoodItemID (INT)
+    Name (VARCHAR)
+    CategoryID (INT)
+    UserID (INT)
+    ExpiryDate (DATE)
+    NotifyDate (DATE)
+    IsActive (BOOLEAN)
+
+user:
+    UserID (INT)
+    Name (VARCHAR)
+    Email (VARCHAR)
+    Password (VARCHAR)
+    Age (INT)
+    Gender (VARCHAR)
+    IsActive (BOOLEAN)
